@@ -25,3 +25,4 @@ Sources:
 - https://gcc.gnu.org/pipermail/gcc-patches/2023-August/628748.html
 - https://wiki.gentoo.org/wiki/Hardened/Toolchain#Changes
 - https://gitlab.archlinux.org/archlinux/rfcs/-/blob/master/rfcs/0003-buildflags.rst?ref_type=heads
+- https://man.openbsd.org/clang-local
