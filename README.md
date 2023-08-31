@@ -15,7 +15,6 @@
 |`-fstack-protector-strong`       |[yes](https://gitlab.alpinelinux.org/alpine/tsc/-/issues/64)|[yes](https://salsa.debian.org/toolchain-team/gcc/-/blob/master/debian/patches/gcc-distro-specs.diff)|[yes](https://src.fedoraproject.org/rpms/redhat-rpm-config//blob/rawhide/f/buildflags.md)|[yes](https://wiki.gentoo.org/wiki/Hardened/Toolchain)|[2014](https://wiki.ubuntu.com/ToolChain/CompilerFlags)|[2006](https://en.opensuse.org/openSUSE:Security_Features)|[yes](https://github.com/archlinux/svntogit-packages/blob/packages/gcc/trunk/PKGBUILD)|[yes](https://man.openbsd.org/clang-local)|
 |`-ftrivial-auto-var-init=zero`   |no|[no](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1010685)|no|[no](https://bugs.gentoo.org/913339)|[no](https://bugs.launchpad.net/ubuntu/+source/gcc-12/+bug/1972043)|no|no|?|
 |`-mbranch-protection=standard`/`-mbranch-target-enforce`|no|no|[yes](https://src.fedoraproject.org/rpms/redhat-rpm-config/blob/rawhide/f/buildflags.md)|no|no|no|no|[2023](https://github.com/openbsd/src/commit/990129f49dcc7205208dec5e29b252be8659896d)|
-|`-msign-return-address`          |?|?|?|?|?|?|?|[2023](https://github.com/openbsd/src/commit/0af616bd8e8b2ec1baf350f86a7209951b73a620)|
 
 
 
