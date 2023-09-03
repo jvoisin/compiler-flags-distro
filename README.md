@@ -17,8 +17,8 @@
 |`-ftrivial-auto-var-init=zero`   |no|[no](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1010685)|no|[no](https://bugs.gentoo.org/913339)|[no](https://bugs.launchpad.net/ubuntu/+source/gcc-12/+bug/1972043)|no|no|?|?|
 |`-msign-return-address=[all|non-leaf]`|no|no|superseded|no|no|no|no|superseded|superseded|
 |`-mbranch-protection=standard`/`-mbranch-target-enforce`|no|no|[yes](https://src.fedoraproject.org/rpms/redhat-rpm-config/blob/rawhide/f/buildflags.md)|no|no|no|no|[2023](https://github.com/openbsd/src/commit/990129f49dcc7205208dec5e29b252be8659896d)|[no](https://github.com/chimera-linux/cports/blob/master/src/cbuild/core/profile.py)|
-|`-fsanitize=cfi`                 |no|?|?|?|?|?|?|?|[partial](https://github.com/search?q=repo%3Achimera-linux%2Fcports+%22cfi%22&type=code)|
-|`-fsanitize=safe-stack`          |no|?|?|?|?|?|?|?|[no](https://github.com/chimera-linux/cports/blob/master/Packaging.md#hardening_options)|
+|`-fsanitize=cfi`                 |no|no|no|?|?|?|?|no|[partial](https://github.com/search?q=repo%3Achimera-linux%2Fcports+%22cfi%22&type=code)|
+|`-fsanitize=safe-stack`          |no|no|no|?|?|?|?|no|[no](https://github.com/chimera-linux/cports/blob/master/Packaging.md#hardening_options)|
 |`-fsanitize=signed-integer-overflow`/`-ftrapv`|no|no|no|no|no|no|no|[no](https://man.openbsd.org/clang-local)|[yes](https://github.com/chimera-linux/cports/blob/master/Packaging.md#hardening_options)|
 |`-mshstk`                        |no|no|no|no|no|no|no|no|no|
 
@@ -37,3 +37,4 @@ Sources:
 - https://wiki.gentoo.org/wiki/Hardened/Toolchain#Changes
 - https://gitlab.archlinux.org/archlinux/rfcs/-/blob/master/rfcs/0003-buildflags.rst?ref_type=heads
 - https://man.openbsd.org/clang-local
+- https://sergesanspaille.fedorapeople.org/lpc2020.pdf
