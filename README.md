@@ -20,6 +20,11 @@
 |`-fsanitize=signed-integer-overflow`/`-ftrapv`|?|?|?|?|?|?|?|yes|[yes](https://github.com/chimera-linux/cports/blob/master/Packaging.md#hardening_options)|
 |`-mshstk`                        |?|?|?|?|?|?|?|?|?|
 
+Note that:
+- some flags are incompatible between each other
+- some flags are more useful than others
+- some flags are superseding some others
+- some libc are incompatible with some flags
 
 
 Sources:
