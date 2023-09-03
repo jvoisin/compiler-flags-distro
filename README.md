@@ -17,7 +17,7 @@
 |`-mbranch-protection=standard`/`-mbranch-target-enforce`|no|no|[yes](https://src.fedoraproject.org/rpms/redhat-rpm-config/blob/rawhide/f/buildflags.md)|no|no|no|no|[2023](https://github.com/openbsd/src/commit/990129f49dcc7205208dec5e29b252be8659896d)|[no](https://github.com/chimera-linux/cports/blob/master/src/cbuild/core/profile.py)|
 |`-fsanitize=cfi`                 |?|?|?|?|?|?|?|?|[no](https://github.com/chimera-linux/cports/blob/master/Packaging.md#hardening_options)|
 |`-fsanitize=safe-stack`          |?|?|?|?|?|?|?|?|[no](https://github.com/chimera-linux/cports/blob/master/Packaging.md#hardening_options)|
-|`-fsanitize=signed-integer-overflow`|?|?|?|?|?|?|?|?|[yes](https://github.com/chimera-linux/cports/blob/master/Packaging.md#hardening_options)|
+|`-fsanitize=signed-integer-overflow`/`-ftrapv`|?|?|?|?|?|?|?|yes|[yes](https://github.com/chimera-linux/cports/blob/master/Packaging.md#hardening_options)|
 |`-mshstk`                        |?|?|?|?|?|?|?|?|?|
 
 
