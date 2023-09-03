@@ -19,7 +19,7 @@
 |`-fsanitize=cfi`                 |?|?|?|?|?|?|?|?|[partial](https://github.com/search?q=repo%3Achimera-linux%2Fcports+%22cfi%22&type=code)|
 |`-fsanitize=safe-stack`          |?|?|?|?|?|?|?|?|[no](https://github.com/chimera-linux/cports/blob/master/Packaging.md#hardening_options)|
 |`-fsanitize=signed-integer-overflow`/`-ftrapv`|?|?|?|?|?|?|?|yes|[yes](https://github.com/chimera-linux/cports/blob/master/Packaging.md#hardening_options)|
-|`-mshstk`                        |?|?|?|?|?|?|?|?|?|
+|`-mshstk`                        |no|no|no|no|no|no|no|no|no|
 
 Note that:
 - some flags are incompatible between each other
