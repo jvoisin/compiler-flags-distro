@@ -18,6 +18,7 @@
 |`-fsanitize=cfi`                 |?|?|?|?|?|?|?|?|[no](https://github.com/chimera-linux/cports/blob/master/Packaging.md#hardening_options)|
 |`-fsanitize=safe-stack`          |?|?|?|?|?|?|?|?|[no](https://github.com/chimera-linux/cports/blob/master/Packaging.md#hardening_options)|
 |`-fsanitize=signed-integer-overflow`|?|?|?|?|?|?|?|?|[yes](https://github.com/chimera-linux/cports/blob/master/Packaging.md#hardening_options)|
+|`-mshstk`                        |?|?|?|?|?|?|?|?|?|
 
 
 
