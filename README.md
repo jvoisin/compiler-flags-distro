@@ -1,4 +1,4 @@
-# Usage of hardening-related compiler flags across Linux distributions
+# Usage of enabled-by-default hardening-related compiler flags across Linux distributions
 
 |.                                | Alpine | Debian | Fedora    | Gentoo Hardened | Ubuntu | OpenSUSE | ArchLinux | OpenBSD | Chimera Linux |
 |---------------------------------|--------|--------|-----------|-----------------|--------|----------|-----------|---------|---------------|
