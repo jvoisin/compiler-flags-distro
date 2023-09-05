@@ -44,6 +44,7 @@ Sources:
 - https://sergesanspaille.fedorapeople.org/lpc2020.pdf
 - https://wiki.ubuntu.com/Security/Features
 - https://wiki.ubuntu.com/ToolChain/CompilerFlags
+- https://fedoraproject.org/wiki/Security_Features_Matrix
 
 [^1]: As `-D_LIBCPP_ENABLE_HARDENED_MODE` only works for llvm17, which isn't in Alpine yet.
 [^2]: Not supported by [musl libc](https://musl.libc.org)
