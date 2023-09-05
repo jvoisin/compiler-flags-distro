@@ -42,6 +42,8 @@ Sources:
 - https://gitlab.archlinux.org/archlinux/rfcs/-/blob/master/rfcs/0003-buildflags.rst?ref_type=heads
 - https://man.openbsd.org/clang-local
 - https://sergesanspaille.fedorapeople.org/lpc2020.pdf
+- https://wiki.ubuntu.com/Security/Features
+- https://wiki.ubuntu.com/ToolChain/CompilerFlags
 
 [^1]: As `-D_LIBCPP_ENABLE_HARDENED_MODE` only works for llvm17, which isn't in Alpine yet.
 [^2]: Not supported by [musl libc](https://musl.libc.org)
