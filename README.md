@@ -36,7 +36,7 @@ Note that:
   it's close enough™ to warrant inclusion in the table.
 
 
-Sources:
+Sources and resources:
 - https://src.fedoraproject.org/rpms/redhat-rpm-config//blob/rawhide/f/buildflags.md
 - https://en.opensuse.org/openSUSE:Security_Features
 - https://gcc.gnu.org/pipermail/gcc-patches/2023-August/628748.html
@@ -47,6 +47,7 @@ Sources:
 - https://wiki.ubuntu.com/Security/Features
 - https://wiki.ubuntu.com/ToolChain/CompilerFlags
 - https://fedoraproject.org/wiki/Security_Features_Matrix
+- https://best.openssf.org/Compiler-Hardening-Guides/Compiler-Options-Hardening-Guide-for-C-and-C++.html
 
 [^1]: As `-D_LIBCPP_ENABLE_HARDENED_MODE` only works for llvm17, which isn't in Alpine yet. It replaces `-D_LIBCPP_ASSERT` and `-D_LIBCPP_ENABLE_ASSERTIONS`.
 [^2]: Not supported by [musl libc](https://musl.libc.org)
