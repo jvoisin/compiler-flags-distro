@@ -48,5 +48,5 @@ Sources:
 - https://wiki.ubuntu.com/ToolChain/CompilerFlags
 - https://fedoraproject.org/wiki/Security_Features_Matrix
 
-[^1]: As `-D_LIBCPP_ENABLE_HARDENED_MODE` only works for llvm17, which isn't in Alpine yet.
+[^1]: As `-D_LIBCPP_ENABLE_HARDENED_MODE` only works for llvm17, which isn't in Alpine yet. It replaces `-D_LIBCPP_ASSERT` and `-D_LIBCPP_ENABLE_ASSERTIONS`.
 [^2]: Not supported by [musl libc](https://musl.libc.org)
