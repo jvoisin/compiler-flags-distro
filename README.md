@@ -26,7 +26,7 @@
 |`-ftrivial-auto-var-init=zero`   |no|[no](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1010685)|no|no|[no](https://bugs.gentoo.org/913339)|[no](https://bugs.launchpad.net/ubuntu/+source/gcc-12/+bug/1972043)|no|no|?|[2023](https://github.com/chimera-linux/cports/commit/ad898a6b645b11dee989f4504e89577f5395ba24)|[2020](https://cs.android.com/android/_/android/platform/build/soong/+/59759dff24ffddca43a1940ed8615f96ee1e875f)|?|
 |`-mbranch-protection=standard`/`-mbranch-target-enforce`|no|[2023](https://git.dpkg.org/cgit/dpkg/dpkg.git/commit/?id=8f5aca71c1435c9913d5562b8cae68b751dff663)|[2020](https://fedoraproject.org/wiki/Changes/Aarch64_PointerAuthentication)|no|no|[2023](https://launchpad.net/ubuntu/+source/dpkg/1.22.0ubuntu1)|no|no|[2023](https://github.com/openbsd/src/commit/990129f49dcc7205208dec5e29b252be8659896d)|[no](https://github.com/chimera-linux/cports/blob/master/src/cbuild/core/profile.py)|?|?|
 |`-mshstk`                        |no|no|no|no|no|no|no|no|no|no|?|?|
-|`-msign-return-address=[all/non-leaf]`|no|no|superseded|no|no|no|no|no|superseded|superseded|?|?|
+|`-msign-return-address=[all/non-leaf]`|no|superseded|superseded|no|no|superseded|no|no|superseded|superseded|?|?|
 
 Note that:
 - some flags are incompatible between each other
