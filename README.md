@@ -1,4 +1,4 @@
-# Usage of enabled-by-default hardening-related compiler flags across Linux distributions
+# Default compiler hardening flags used to build packages for Linux distributions
 
 |.                                | Alpine | Debian | Fedora    | Gentoo | Gentoo Hardened | Ubuntu | OpenSUSE | ArchLinux | OpenBSD | Chimera Linux | Android | Google Chrome |
 |---------------------------------|--------|--------|-----------|--------|-----------------|--------|----------|-----------|---------|---------------|---------|---------------|
@@ -37,6 +37,7 @@ Note that:
 - while Google Chrome isn't a distribution, given the size of its source code,
   it's close enough™ to warrant inclusion in the table.
 
+Please do not expect these flags to be enabled in a distros compiler. This repo only tracks compiler hardening flags used to *build* packages (e.g., rpms or debs). For example, in the deb world settings from both gcc and dpkg are used to build package archives. In [most cases Ubuntu sets security hardening flags in the compiler](https://wiki.ubuntu.com/ToolChain/CompilerFlags), but a [few are only set in dpkg](https://bugs.launchpad.net/ubuntu/+source/gcc-14/+bug/2040321). On Debian and Ubuntu the most recent release's archive builds arm64 packages with `-mbranch-protection=standard`, but you need to manually set the flag when compiling your own code.
 
 Sources and resources:
 - https://src.fedoraproject.org/rpms/redhat-rpm-config//blob/rawhide/f/buildflags.md
